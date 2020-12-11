@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stil.css">
+  <script src="jquery-3.5.1.min.js"></script>
+  <title>dokuzor workarea</title>
+</head>
+<body>
+  <main>
+<header><h1>Dokuzor news. that you saw the truths!</h1></header>
+
+
+<article id="part1"><section><p><marquee direction="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  In egestas dapibus nunc sed consequat. 
+  Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+  Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+  Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget. 
+  Fusce tortor ligula, pharetra nec augue id, blandit porta lacus. Donec imperdiet nisi ex, sed facilisis massa mattis non.</marquee> </p></section></article>
+
+  <!PART1 FINISHED HERE>
+
+  <article id="part2">
+
+    <div id="kapsayici2"> 
+      <section><img src="images/man.jpg" alt="man"></section>
+
+      <section><h2>Our director</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        In egestas dapibus nunc sed consequat. 
+        Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+        Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+        Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget. 
+        Fusce tortor ligula, pharetra nec augue id, blandit porta lacus. Donec imperdiet nisi ex, sed facilisis massa mattis non. 
+        Vivamus eu orci eget magna hendrerit efficitur. Etiam eget turpis rutrum, commodo tortor non, ultricies orci. 
+        Aliquam bibendum sapien tellus. Curabitur egestas massa tortor. Vivamus iaculis enim eu purus pretium interdum.</p></section>
+  </div>
+
+</article>
+
+<!PART2 FINISHED HERE>
+
+<article id="part3">
+
+  <div id="kapsayici3"> 
+    <section><h2>All the time we write the truths...</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      In egestas dapibus nunc sed consequat. 
+      Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+      Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+      Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget. 
+      Fusce tortor ligula, pharetra nec augue id, blandit porta lacus. Donec imperdiet nisi ex, sed facilisis massa mattis non. </p></section>
+
+    <section><img src="images/typewriter.jpg" alt="typewriter"></section>
+</div>
+
+</article>
+
+<!PART 3 FINISHED HERE>
+
+<div id="menu1"><h3>CLICK TO SEE NEWS 1</h3></div>
+
+<article id="part4">
+
+  <div id="kapsayici4">
+    
+  <section><img src="images/turk-bayragi.jpg"></section>
+
+ <section><h2>REVOLUTION IS TAKING PLACE IN TURKEY</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    In egestas dapibus nunc sed consequat. 
+    Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+    Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+    Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget.</p>
+  </section>
+
+</div>
+</article>
+
+<!PART 4 FINISHED HERE>
+
+<div id="menu2"><h3>CLICK TO SEE NEWS 2</h3></div>
+
+<article id="part5">
+
+  <div id="kapsayici5">
+    
+  <section><img src="images/me.jpg"></section>
+
+ <section><h2>DOKUZOR WON 1.000.000 POUND AND HELPED TO REVOLUTION</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    In egestas dapibus nunc sed consequat. 
+    Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+    Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+    Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget.</p>
+  </section>
+
+</div>
+</article>
+
+<div id="menu3"><h3>CLICK TO NEWS</h3></div>
+
+<footer><h2>Made by dokuzor</h2><p>2020.12.11</p></footer>
+
+<!PART 5 BURADA BİTTİ>
+
+  </main>
+
+    <script>
+      $(document).ready(function(){
+        $("#menu1").click(function(){
+          $("#part4").slideDown(800);
+          $("#part5").slideUp(800);
+        })
+
+
+        $("#menu2").click(function(){
+          $("#part5").slideDown(800);
+          $("#part4").slideUp(800);
+        })
+
+        $("#menu3").click(function(){
+          $("#part4").slideUp(800);
+          $("#part5").slideUp(800);
+
+        });
+
+      });
+
+    </script>
+</body>
+</html>

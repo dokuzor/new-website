@@ -1,0 +1,277 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+
+/*Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+In egestas dapibus nunc sed consequat. 
+Duis nec purus mi. Maecenas faucibus arcu id ligula pharetra, et interdum turpis commodo. 
+Pellentesque rhoncus sagittis justo. Vivamus venenatis quam vel dolor suscipit condimentum. 
+Quisque sit amet lectus et dui euismod convallis quis sed leo. Quisque elementum nisi massa, ut egestas tellus convallis eget. 
+Fusce tortor ligula, pharetra nec augue id, blandit porta lacus. Donec imperdiet nisi ex, sed facilisis massa mattis non. 
+Vivamus eu orci eget magna hendrerit efficitur. Etiam eget turpis rutrum, commodo tortor non, ultricies orci. 
+Aliquam bibendum sapien tellus. Curabitur egestas massa tortor. Vivamus iaculis enim eu purus pretium interdum.*/
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+main{
+    width: 100%;
+}
+
+
+header{
+    width: 100%;
+    height: 40vh;
+    background-image: url("images/header.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    text-align: center;
+    color: wheat;
+    text-shadow: 10px 10px 10px wheat;
+}
+
+article#part1{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    background-color: orangered;
+}
+
+
+article#part1 section{
+    width: 100%;
+    border: 0px solid;
+}
+
+article#part1 section p{
+    font-size: 20px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+
+/*PART 1 FINISHED HERE*/
+
+
+
+article#part2{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    margin-top: 5%;
+}
+
+div#kapsayici2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article#part2 section{
+    flex-basis: 230px;
+    flex-grow: 1;
+    border: 0px solid;
+    margin: 10px;
+}
+
+
+article#part2 section h2{
+    text-align: center;
+}
+
+
+article#part2 section p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+article#part2 section img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/*PART 2 FINISHED HERE*/
+
+
+article#part3{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    margin-top: 5%;
+}
+
+
+div#kapsayici3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+article#part3 section{
+    flex-basis: 230px;
+    flex-grow: 1;
+    border: 0px solid;
+    margin: 10px;
+}
+
+article#part3 section h2{
+    text-align: center;
+}
+
+
+article#part3 section p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+article#part3 section img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*PART 3 FINISHED HERE*/
+
+div#menu1,#menu2,#menu3{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: orangered;
+    box-sizing: border-box;
+    margin-top: 5%;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+
+article#part4{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    display: none;
+}
+
+div#kapsayici4{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+article#part4 section{
+    flex-basis: 230px;
+    flex-grow: 1;
+    border: 0px solid;
+    margin: 10px;
+}
+
+article#part4 h2{
+    text-align: center;
+}
+
+
+article#part4 section p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+article#part4 section img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*PART 4 FINISHED HERE*/
+
+
+article#part5{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    display: none;
+    
+}
+
+div#kapsayici5{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+article#part5 section{
+    flex-basis: 230px;
+    flex-grow: 1;
+    border: 0px solid;
+    margin: 10px;
+}
+
+article#part5 h2{
+    text-align: center;
+}
+
+
+article#part5 section p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+article#part5 section img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/*PART5 BURADA BİTTİ*/
+
+footer{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    background-color: wheat;
+    margin-top: 5%;
+}
